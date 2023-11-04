@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <nav class=" navbar-expand-lg bg-white px-3 py-2">
+        <div class="container-fluid d-flex justify-content-between">
+            <img class="logo" src="Cookpal 1.svg"alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+            <div class="  collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+                <div class=" me-5 navbar-nav">
+                    <a class="nav-link active " aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Export</a>
+                    <a class="nav-link" href="#">Help</a>
+                    <img src="Ellipse 2.svg"alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="" id="hero">
+        <p style="font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        color:  #DC582A;
+        text-align: left;
+        padding-left: 150px;
+        padding-top: 20px;
+        ">Trending now</p>
+        <p style="font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        padding-left: 150px;
+        line-height: 51px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        ">Mike’s famous salad<br>
+            with cheese</p>
+            <p style="font-family: Poppins;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0em;
+            color:white;
+            padding-left: 150px;
+            text-align: left;
+            ">By John Mike</p>
+    </div>
+    <div class="ms-5 ">
+        <p style="font-family: Poppins;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 30px;
+        margin-left: 70px;
+        ">Search For Recipes</p>
+        </div>
+       <div class=" search d-flex  bg-gray">
+            <input type="text"  id="search" placeholder="Search For Recipes" > 
+             <img style="background-color: green;margin-right:50px; width:30px; height: 35px;" src="li_search.svg"alt="">
+             
+        </div>
+       <form class="form1">
+              <!-- <div class="d-flex" id="menu"> -->
+                    <input type="radio" id="all" name="Recipes">
+                    <label class="btn" for="all">
+                        <span>All Recipes</span>
+                        <img src="chevron.svg"alt="arrow">
+                    </label>
+                    <input type="radio" id="veg" name="Recipes">
+                    <label class="btn1" for="veg">
+                        <span>Veg Recipes Only</span>
+                        <img src="chevron.svg"alt="arrow">
+                    </label>
+                    <input type="radio" id="non" name="Recipes">
+                    <label class="btn2" for="non">
+                        <span>Non-veg Recipes</span>
+                        <img   src="chevron.svg"alt="arrow">
+                    </label>
+        </form>            
+              <!-- </div> -->
+              <div style=" margin-left: 120px; margin-top: 50px;">
+            <h2> Filters</h2></div>
+        
+        <section class="ratings-card">
+            <div style=" margin-left: 120px; margin-top: 50px;">
+                  <h4>Rating</h4><br>
+                <div class="rate"  >
+                    <input type="radio" id="above"name="Rating" value="check" >
+                    <label for="above">4 and Above</label><br><br>
+                    <input type="radio" id="below" name="Rating" value="check" >
+                    <label for="below">Below 4</label>
+                </div>   
+            </div>
+            <div class="recipe-container" id="recipeContainer">
+                
+            </div>
+        </section>    
+            
+          <footer >
+            <div class="footer1">
+            <div class="left">
+                <img style="padding-bottom: 20px;"  src="Cookpal 1.svg" alt="">
+                <p>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</p>
+            </div>
+            <div class="d-flex" id="right">
+                <div><h3 style="padding-bottom: 20px;">Company</h3>
+                    <p>Home</p>
+                    <p>Explore</p>
+                    <p>Team</p>
+                    <p>Aboutus</p>
+                    <p>Activity</p>
+                </div>
+                <div class="right1">
+                    <h3 style="padding-bottom: 20px;">Resources</h3>
+                    <p>Blog</p>
+                    <p>Use Cases</p>
+                    <p>Testimonials</p>
+                    <p>Insights</p>
+                </div>
+                <div class="right1">
+                    <img  style="padding-bottom: 20px;" src="Cookpal 1.svg" alt="">
+                    <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus <br>accumsan aliquam.</p>
+                <div class="d-flex gap-2">
+                    <input type="text"   placeholder="Email  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@" > 
+                    <h5 style="background-color: green; color: white; width:130px; height: 30px;border-radius: 4px; padding-left: 10px;" id="sub">Subscribe</h5>
+                </div>
+               
+                </div>
+                 
+            </div>
+           </div>
+           <div class="d-flex justify-content-center gap-3 " id="social">
+            <img  style=" width: 50px;"   src="Instagram.svg"alt="">
+            <img style=" width: 50px;"  src="Twitter.svg"alt="">
+            
+            <img style=" width: 50px;" src="Linkedin.svg"alt="">
+            <img style=" width: 50px;" src="Facebook.svg"alt="">
+           </div>
+          </footer>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

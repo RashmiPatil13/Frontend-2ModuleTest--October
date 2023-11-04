@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    margin-left: 130px;
+}
+
+/* #navbarNavAltMarkup{
+    padding-left: 1100px;
+   
+} */
+#navbarNavAltMarkup{
+   text-decoration: none;
+}
+.navbar-nav{
+    gap:20px;
+}
+#hero{
+    background-image: url("Rectangle\ 20\ \(1\).svg");
+     background-repeat:no-repeat ;
+     width: 1500px;
+     height: 360px;
+    padding-top: 50px;
+    background-position-x: center;
+    padding-left: 50px;
+    margin-top: 20px;
+} 
+.form1{
+    margin-top: 50px; 
+}
+.form1 > input{
+       display: none;
+       
+}  
+.form1>.btn{
+    width: 200px;
+height: 70px;
+padding: 30px, 29.8px, 30px, 29px;
+border-radius: 10px;
+background: #EAAA00;
+margin-left: 120px;
+padding-top: 20px;
+color: white;
+}
+.form1 >.btn1{
+    width: 200px;
+height: 70px;
+padding: 30px, 29.8px, 30px, 29px;
+border-radius: 10px;
+background: #C4D600;
+padding-top: 20px;
+padding-left: 20px;
+margin-left: 20px;
+color: white;
+}
+.form1>.btn2{
+    width: 200px;
+height: 70px;
+padding: 30px, 29.8px, 30px, 29px;
+border-radius: 10px;
+background: #DC582A;
+padding-top: 20px;
+padding-left: 20px;
+margin-left: 20px;
+color: white;
+}
+.btn:hover{
+    box-shadow: 0px 0px 10px grey;
+ }
+.btn1:hover{
+   box-shadow: 0px 0px 10px grey;
+   color: black;
+}
+.btn2:hover{
+    box-shadow: 0px 0px 10px grey;
+    color: black;
+}
+
+.card {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    border-radius: 30px;
+    height: 200px;
+    margin: 10px 50px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url("rectangle.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+  
+  .card-content {
+    color: white;
+  }
+  
+  .card > div > p:nth-child(1) {
+    color: #dc582a;
+  }
+  
+  /* Style h2 and p to center text */
+  .card h2 {
+    font-size: 40px;
+    width: 400px;
+  }
+  .card p {
+    font-size: 24px;
+    width: 400px;
+  }
+  h2,
+  p {
+    margin: 10px 0; 
+  }
+  .ratings-recipecard {
+    display: flex;
+    gap: 30px;
+  }
+  .recipe-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+ 
+  
+  .recipe-card .image-container {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; 
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .recipe-card img {
+    height: 200px;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 15px;
+  
+  }
+  
+  /* .recipe-card h3 {
+    margin-top: 10px;
+    font-size: 23;
+   
+  }
+  
+  .recipe-card p {
+    margin: 5px 0;
+  }
+  
+  .recipe-card h3 + p {
+    font-size: 10px;
+    color: gray;
+  }
+  
+  .recipe-card h3 + p + p {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(255, 94, 0);
+  } */
+  .like-button {
+    cursor: pointer;
+  }
+  
+  .ratings-card {
+    display: grid;
+    grid-template-columns: 23% 82%;
+  }
+  
+  .filters-container {
+    margin: 0px 60px;
+  }
+  .rating-p {
+    margin-top: 30px;
+  }
+  
+  .label {
+    display: block;
+    padding: 10px;
+  }
+  #search {
+     padding: 5px;  
+    width: 80%;
+     border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em; 
+    text-align: left;
+    margin-left: 120px;
+    background-color: #f1f1f1;
+  }
+  .like-time{
+    display: flex;
+    justify-content: space-between;
+  }
+  .name-rating{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer1{
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  .left{
+    margin-left: 120px;
+    margin-top: 70px;
+  } 
+  #right{
+    margin-top: 70px;
+    margin-left: 120px;
+  }
+  .right1{
+    margin-left: 120px;
+  }
+  #sub:hover{
+    box-shadow: 0px 0px 10px rgb(56, 57, 56) ;
+   
+  }
+  /* #right:hover{
+    color:red;
+    cursor: pointer;
+  }
+  #right1:hover{
+    color:red;
+    cursor: pointer;
+  } */
+  #social>img:hover{
+    box-shadow: 0px 0px 10px#EAAA00 ;
+    border-radius: 20px;
+   
+  } 
+
+  @media screen and (max-width:480px)
+    {
+  #hero{
+    width: 360px ;
+    height: 300px;
+  }
+.rate{
+   display: none;
+}
+.search{
+    width: 380px;
+}
+  #right{
+    display: none !important;
+  }
+  .right1{
+    display: none;
+  }
+  .left{
+    width: 260px;
+  }
+  #social{
+    display:none;
+  }
+}
